@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2762AE6A23E9586B009C41E6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762AE6923E9586B009C41E6 /* DetailViewController.swift */; };
+		27AAD21723E945E30006C2EF /* SiswaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD21623E945E30006C2EF /* SiswaTableViewController.swift */; };
+		27AAD21923E946270006C2EF /* SiswaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAD21823E946270006C2EF /* SiswaTableViewCell.swift */; };
 		27EEE51223E91DFB00E7F174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE51123E91DFB00E7F174 /* AppDelegate.swift */; };
 		27EEE51423E91DFB00E7F174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE51323E91DFB00E7F174 /* SceneDelegate.swift */; };
 		27EEE51623E91DFB00E7F174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EEE51523E91DFB00E7F174 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2762AE6923E9586B009C41E6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		27AAD21623E945E30006C2EF /* SiswaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiswaTableViewController.swift; sourceTree = "<group>"; };
+		27AAD21823E946270006C2EF /* SiswaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiswaTableViewCell.swift; sourceTree = "<group>"; };
 		27EEE50E23E91DFB00E7F174 /* CoreDataSiswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSiswa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EEE51123E91DFB00E7F174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27EEE51323E91DFB00E7F174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				27EEE51F23E91DFF00E7F174 /* LaunchScreen.storyboard */,
 				27EEE52223E91DFF00E7F174 /* Info.plist */,
 				27EEE51A23E91DFB00E7F174 /* CoreDataSiswa.xcdatamodeld */,
+				27AAD21623E945E30006C2EF /* SiswaTableViewController.swift */,
+				27AAD21823E946270006C2EF /* SiswaTableViewCell.swift */,
+				2762AE6923E9586B009C41E6 /* DetailViewController.swift */,
 			);
 			path = CoreDataSiswa;
 			sourceTree = "<group>";
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				27EEE51C23E91DFB00E7F174 /* CoreDataSiswa.xcdatamodeld in Sources */,
+				27AAD21923E946270006C2EF /* SiswaTableViewCell.swift in Sources */,
 				27EEE51623E91DFB00E7F174 /* ViewController.swift in Sources */,
 				27EEE51223E91DFB00E7F174 /* AppDelegate.swift in Sources */,
 				27EEE51423E91DFB00E7F174 /* SceneDelegate.swift in Sources */,
+				27AAD21723E945E30006C2EF /* SiswaTableViewController.swift in Sources */,
+				2762AE6A23E9586B009C41E6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
